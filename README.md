@@ -375,24 +375,37 @@ As shown below, the tiled inferred masks predicted by our segmentation model tra
 <h3>
 References
 </h3>
-<b>1. Multiclass semantic segmentation of CamVid dataset using U-Net</b><br>
-William Wei<br>
-<a href="https://github.com/yumouwei/camvid_unet_semantic_segmentation">
-https://github.com/yumouwei/camvid_unet_semantic_segmentation
+<b>1. Landslide4Sense: Multi-sensor landslide detection competition & benchmark dataset</b><br>
+Institute of Advanced Research in Artificial Intelligence<br>
+<a href="https://github.com/iarai/Landslide4Sense-2022">
+https://github.com/iarai/Landslide4Sense-2022</a>
+<br>
+<br>
+<b>2. The Outcome of the 2022 Landslide4Sense Competition:<br> Advanced Landslide Detection From Multisource Satellite Imagery
+</b><br>
+Omid Ghorbanzadeh; Yonghao Xu; Hengwei Zhao; Junjue Wang; Yanfei Zhong; Dong Zhao<br>
+<a href="https://ieeexplore.ieee.org/document/9944085">
+https://ieeexplore.ieee.org/document/9944085
 </a>
 <br>
 <br>
-<b>2. TensorFlow-FlexUNet-Image-Segmentation-Model</b><br>
+<b>3. TensorFlow-FlexUNet-Image-Segmentation-Model</b><br>
 Toshiyuki Arai antillia.com <br>
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model">
 https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model
 </a>
 <br>
 <br>
-<b>3. TensorFlow-FlexUNet-Tiled-Image-Segmentation-KITTI-Stereo-2015</b><br>
+<b>4. TensorFlow-FlexUNet-Image-Segmentation-Landslide4Sense</b><br>
 Toshiyuki Arai antillia.com <br>
-<a href="https://github.com/atlan-antillia/TensorFlow-FlexUNet-Tiled-Image-Segmentation-KITTI-Stereo-2015">
-https://github.com/atlan-antillia/TensorFlow-FlexUNet-Tiled-Image-Segmentation-KITTI-Stereo-2015
+<a href="https://github.com/atlan-antillia/TensorFlow-FlexUNet-Image-Segmentation-Landslide4Sense">
+https://github.com/atlan-antillia/TensorFlow-FlexUNet-Image-Segmentation-Landslide4Sense
 </a>
 <br>
 <br>
+<b>5. TensorFlow-FlexUNet-Image-Segmentation-Japan-Landslide</b><br>
+Toshiyuki Arai antillia.com <br>
+<a href="https://github.com/atlan-antillia/TensorFlow-FlexUNet-Image-Segmentation-Japan-Landslide">
+https://github.com/atlan-antillia/TensorFlow-FlexUNet-Image-Segmentation-Japan-Landslide
+</a>
+
