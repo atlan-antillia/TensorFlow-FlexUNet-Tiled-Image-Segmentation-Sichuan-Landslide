@@ -20,8 +20,7 @@ debris flow disaster in Sichuan and surrounding areas
 The pixel size of images and masks in the <b>Sichuan-Landslide</b> dataset is 1181x1181 pixels, which is slightly 
 large to use for our segmentation model.<br>
 Therefore, we first generated an <b>Resized dataset</b> of 1024x1024 pixels, which are multiple of 512 respectively, 
-than the original one, 
-and then generated our Augmented-Tiled-Sichuan-Landslide dataset from the <b>Resized one</b>.
+, and then generated our Augmented-Tiled-Sichuan-Landslide dataset from the <b>Resized one</b>.
 <br><br>
 Please see also our experiment 
 <a href="https://github.com/atlan-antillia/TensorFlow-FlexUNet-Tiled-Image-Segmentation-Drone-Image">
