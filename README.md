@@ -51,7 +51,7 @@ dataset appear similar to the ground truth masks, but they lack precision in cer
 <tr>
 <th>Input: image</th>
 <th>Mask (ground_truth)</th>
-<th>Prediction: inferred_mask</th>
+<th>Prediction: tiled_inferred_mask</th>
 </tr>
 <tr>
 <td><img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/mini_test/images/Landslide001.png" width="320" height="auto"></td>
@@ -335,7 +335,7 @@ As shown below, the inferred masks predicted by our segmentation model trained o
 
 <th>Image</th>
 <th>Mask (ground_truth)</th>
-<th>inferred-mask</th>
+<th>Prediction: tiled_inferred_mask</th>
 </tr>
 
 <td><img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/mini_test/images/Landslide003.png" width="320" height="auto"></td>
