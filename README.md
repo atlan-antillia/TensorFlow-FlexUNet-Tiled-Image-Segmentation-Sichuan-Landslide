@@ -233,7 +233,7 @@ mask_file_format = ".png"
 ;           
 ; Landslide 1+1 classes
 ;                 Landslide: mazenda
-rgb_map={(0,0,0):0,(255,0,255):1
+rgb_map={(0,0,0):0,(255,0,255):1}
 </pre>
 
 <b>Epoch change tiled inference callback</b><br>
@@ -250,20 +250,20 @@ By using this callback, on every epoch_change, the tiled inference procedure can
  for 6 images in <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
  at each epoch during your training process.<br> <br> 
 
-<b>Epoch_change_inference output at starting (epoch 1,2,3,4)</b><br>
+<b>Epoch_change_inference output at starting (epoch 1,2,3)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/epoch_change_infer_at_start.png" width="1024" height="auto"><br>
 <br>
-<b>Epoch_change_inference output at middlepoint (epoch 32,33,34,35)</b><br>
+<b>Epoch_change_inference output at middlepoint (epoch 15,16,17)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/epoch_change_infer_at_middlepoint.png" width="1024" height="auto"><br>
 <br>
 
-<b>Epoch_change_inference output at ending (epoch 65,66,67,68)</b><br>
+<b>Epoch_change_inference output at ending (epoch 31,32,33)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/epoch_change_infer_at_end.png" width="1024" height="auto"><br>
 <br>
 
 
-In this experiment, the training process was stopped at epoch 68 by EarlyStoppingCallback.<br><br>
-<img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/train_console_output_at_epoch68.png" width="880" height="auto"><br>
+In this experiment, the training process was stopped at epoch 33 by EarlyStoppingCallback.<br><br>
+<img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/train_console_output_at_epoch33.png" width="880" height="auto"><br>
 <br>
 
 <a href="./projects/TensorFlowFlexUNet/Sichuan-Landslide/eval/train_metrics.csv">train_metrics.csv</a><br>
@@ -289,7 +289,7 @@ python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/evaluate_console_output_at_epoch68.png" width="880" height="auto">
+<img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/evaluate_console_output_at_epoch33.png" width="880" height="auto">
 <br><br>Image-Segmentation-Aerial-Imagery
 
 <a href="./projects/TensorFlowFlexUNet/Sichuan-Landslide/evaluation.csv">evaluation.csv</a><br>
@@ -297,8 +297,8 @@ Evaluation console output:<br>
 The loss (categorical_crossentropy) to this Sichuan-Landslide/test was not low, and dice_coef_multiclass not high as shown below.
 <br>
 <pre>
-categorical_crossentropy,0.2103
-dice_coef_multiclass,0.9104
+categorical_crossentropy,0.1125
+dice_coef_multiclass,0.9439
 </pre>
 <br>
 <h3>
