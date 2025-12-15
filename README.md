@@ -326,14 +326,14 @@ python ../../../src/TensorFlowFlexUNetTiledInferencer.py ./train_eval_infer.conf
 <img src="./projects/TensorFlowFlexUNet/Sichuan-Landslide/asset/mini_test_output_tiled.png" width="1024" height="auto"><br>
 <br>
 <hr>
-<b>Enlarged images and masks for the Sichuan-Landslide 682x512 pixels</b><br>
-As shown below, the inferred masks predicted by our segmentation model trained on the 
+<b>Enlarged images and masks for the Sichuan-Landslide 1024x1024 pixels</b><br>
+As shown below, the tiled inferred masks predicted by our segmentation model trained on the 
  dataset appear similar to the ground truth masks, but they lack precision in certain areas.<br>
 <br><br>
 <table>
 <tr>
 
-<th>Image</th>
+<th>Input: Image</th>
 <th>Mask (ground_truth)</th>
 <th>Prediction: tiled_inferred_mask</th>
 </tr>
