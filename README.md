@@ -19,7 +19,7 @@ debris flow disaster in Sichuan and surrounding areas
 <b>Divide-and-Conquer Strategy</b><br>
 The pixel size of images and masks in the <b>Sichuan-Landslide</b> dataset is 1181x1181 pixels, which is slightly 
 large to use for our segmentation model.<br>
-Therefore, we first generated an <b>Resized dataset</b> of 1024x1024 pixels, which are multiple of 512 respectively, 
+Therefore, we first generated a <b>Resized dataset</b> of 1024x1024 pixels, which are multiple of 512 respectively, 
 , and then generated our Augmented-Tiled-Sichuan-Landslide dataset from the <b>Resized one</b>.
 <br><br>
 Please see also our experiment 
